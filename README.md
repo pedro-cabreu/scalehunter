@@ -1,6 +1,4 @@
 <div align="center">
-    <h1>Scale Hunter</h1>
+    ![header](src/assets/images/logo.png)
     <b>🎸 Find the musical scales you need quickly on a beatiful interface. 🎸</b>
 </div>
-
-![header](src/assets/images/logo.png)
