@@ -3,4 +3,4 @@
     <b>🎸 Find the musical scales you need quickly on a beatiful interface. 🎸</b>
 </div>
 
-![header](src/images/Header.png)
+![header](src/assets/images/logo.png)
