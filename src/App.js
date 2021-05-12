@@ -1,10 +1,10 @@
+import React from 'react';
 import './global.css';
+import Routes from './routes';
 
 function App() {
   return (
-    <div>
-      <h1>Bruh</h1>
-    </div>
+    <Routes />
   );
 }
 

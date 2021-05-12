@@ -1,0 +1,45 @@
+{
+    "roots": [
+        { "value": "A", "label": "A"},
+        { "value": "A#", "label": "A#"},
+        { "value": "B", "label": "B"},
+        { "value": "C", "label": "C"},
+        { "value": "C#", "label": "C#"},
+        { "value": "D", "label": "D"},
+        { "value": "D#", "label": "D#"},
+        { "value": "E", "label": "E"},
+        { "value": "F", "label": "F"},
+        { "value": "F#", "label": "F#"},
+        { "value": "G", "label": "G"},
+        { "value": "G#", "label": "G#"}
+    ],
+    "instruments": [
+        { "value": "Guitar", "label": "Guitar"},
+        { "value": "Keys", "label": "Keys"},
+        { "value": "Bass", "label": "Bass"},
+        { "value": "Ukulele", "label": "Ukulele"}
+    ],
+    "tunings": [
+        { "value": "EADGBE", "label": "EADGBE (Standard)"},
+        { "value": "DADGBE", "label": "DADGBE (Drop D)"},
+        { "value": "DADGAD", "label": "DADGAD (Dsus 4)"},
+        { "value": "EBEG#BE", "label": "EBEG#BE (Open E)"},
+        { "value": "DGDGBD", "label": "DGDGBD (Open G)"},
+        { "value": "FACGCE", "label": "FACGCE (Never Meant)"},
+        { "value": "DAEAC#E", "label": "DAEAC#E"},
+        { "value": "CGDGBD", "label": "CGDGBD (Open G)"},
+        { "value": "DADF#AD", "label": "DADF#AD (Open D)"}
+    ],
+    "scales": [
+        { "value": "Natural Major", "label": "Natural Major"},
+        { "value": "Natural Minor", "label": "Natural Minor"},
+        { "value": "Harmonic Minor", "label": "Harmonic Minor"},
+        { "value": "Pentatonic Minor", "label": "Pentatonic Minor"},
+        { "value": "PentaBlues", "label": "PentaBlues"},
+        { "value": "Phrygian", "label": "Phrygian"},
+        { "value": "Dorian", "label": "Dorian"},
+        { "value": "Locrian", "label": "Locrian"},
+        { "value": "Lydian", "label": "Lydian"},
+        { "value": "Mixolydian", "label": "Mixolydian"}
+    ]
+}
