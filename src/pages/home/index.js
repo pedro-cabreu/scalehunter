@@ -78,10 +78,9 @@ export default class Home extends React.Component{
     handleScaleChange(){
 
         let query = this.state.root + " " +this.state.scale
-        console.log(query)
         let result = Scale.get(query);
         let arrTemp = [];
-        console.log("array inicial: ", result.notes);
+        // console.log("array inicial: ", result.notes);
 
         result.notes.map((value, index) => {
 
@@ -93,7 +92,7 @@ export default class Home extends React.Component{
             return true;
         });
 
-        console.log("array final:", arrTemp)
+        // console.log("array final:", arrTemp)
 
         this.setState({
 

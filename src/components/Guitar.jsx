@@ -23,12 +23,6 @@ export default class Guitar extends React.Component{
 
     render(){
 
-        console.log(Data.roots[this.assertArrayIndex(Data.roots.findIndex(element => element.value === this.props.tuning[1]) + 1)].value)
-        console.log(Data.roots[this.assertArrayIndex(Data.roots.findIndex(element => element.value === this.props.tuning[1]) + 2)].value)
-        console.log(Data.roots[this.assertArrayIndex(Data.roots.findIndex(element => element.value === this.props.tuning[1]) + 3)].value)
-
-        console.log(this.props.scale)
-
         return(
             <div className="mainGuitar">
                 <img src={ Fingerboard } alt="" />
