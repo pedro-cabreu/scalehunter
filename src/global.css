@@ -95,6 +95,7 @@ footer > label{
 
     font-family: 'IBM Plex Mono';
     color: #EEEEEE;
+    cursor: pointer;
     opacity: 0.45;
 }
 
