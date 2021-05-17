@@ -20,26 +20,90 @@
         { "value": "Ukulele", "label": "Ukulele"}
     ],
     "tunings": [
-        { "value": "EADGBE", "label": "EADGBE (Standard)"},
-        { "value": "DADGBE", "label": "DADGBE (Drop D)"},
-        { "value": "DADGAD", "label": "DADGAD (Dsus 4)"},
-        { "value": "EBEG#BE", "label": "EBEG#BE (Open E)"},
-        { "value": "DGDGBD", "label": "DGDGBD (Open G)"},
-        { "value": "FACGCE", "label": "FACGCE (Never Meant)"},
-        { "value": "DAEAC#E", "label": "DAEAC#E"},
-        { "value": "CGDGBD", "label": "CGDGBD (Open G)"},
-        { "value": "DADF#AD", "label": "DADF#AD (Open D)"}
+        { "value": [
+            "E",
+            "A",
+            "D",
+            "G",
+            "B",
+            "E"
+        ], "label": "EADGBE (Standard)"},
+        { "value": [
+            "D",
+            "A",
+            "D",
+            "G",
+            "B",
+            "E"
+        ], "label": "DADGBE (Drop D)"},
+        { "value": [
+            "D",
+            "A",
+            "D",
+            "G",
+            "A",
+            "D"
+        ], "label": "DADGAD (Dsus 4)"},
+        { "value": [
+            "E",
+            "B",
+            "E",
+            "G#",
+            "B",
+            "E"
+        ], "label": "EBEG#BE (Open E)"},
+        { "value": [
+            "D",
+            "G",
+            "D",
+            "G",
+            "B",
+            "D"
+        ], "label": "DGDGBD (Open G)"},
+        { "value": [
+            "F",
+            "A",
+            "C",
+            "G",
+            "C",
+            "E"
+        ], "label": "FACGCE (Never Meant)"},
+        { "value": [
+            "D",
+            "A",
+            "E",
+            "A",
+            "C#",
+            "E"
+        ], "label": "DAEAC#E"},
+        { "value": [
+            "C",
+            "G",
+            "D",
+            "G",
+            "B",
+            "D"
+        ], "label": "CGDGBD (Open G)"},
+        { "value": [
+            "D",
+            "A",
+            "D",
+            "F#",
+            "A",
+            "D"
+        ], "label": "DADF#AD (Open D)"}
     ],
     "scales": [
-        { "value": "Natural Major", "label": "Natural Major"},
-        { "value": "Natural Minor", "label": "Natural Minor"},
-        { "value": "Harmonic Minor", "label": "Harmonic Minor"},
-        { "value": "Pentatonic Minor", "label": "Pentatonic Minor"},
-        { "value": "PentaBlues", "label": "PentaBlues"},
-        { "value": "Phrygian", "label": "Phrygian"},
-        { "value": "Dorian", "label": "Dorian"},
-        { "value": "Locrian", "label": "Locrian"},
-        { "value": "Lydian", "label": "Lydian"},
-        { "value": "Mixolydian", "label": "Mixolydian"}
+        { "value": "major", "label": "Natural Major"},
+        { "value": "minor", "label": "Natural Minor"},
+        { "value": "harmonic minor", "label": "Harmonic Minor"},
+        { "value": "major pentatonic", "label": "Major Pentatonic"},
+        { "value": "minor pentatonic", "label": "Minor Pentatonic"},
+        { "value": "blues", "label": "PentaBlues"},
+        { "value": "phrygian", "label": "Phrygian"},
+        { "value": "dorian", "label": "Dorian"},
+        { "value": "locrian", "label": "Locrian"},
+        { "value": "lydian", "label": "Lydian"},
+        { "value": "mixolydian", "label": "Mixolydian"}
     ]
 }
