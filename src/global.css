@@ -104,3 +104,22 @@ footer > label{
     margin-top: 20vh;
     color: #EEEEEE;
 }
+
+.guitarWrapper{
+
+    display: flex;
+    align-items: center;
+}
+
+.tuningLabel{
+
+    margin-top: 14vh;
+    margin-right: 30px;
+    color: #EEEEEE;
+    font-size: 10px;
+}
+
+.inScale{
+
+    color: #FD7014;
+}
