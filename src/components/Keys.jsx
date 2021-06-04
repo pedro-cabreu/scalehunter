@@ -1,5 +1,6 @@
 import React from 'react';
 import '../global.css';
+import { motion } from 'framer-motion';
 
 class Keys extends React.Component{
 
@@ -22,7 +23,7 @@ class Keys extends React.Component{
 
     render(){
         return(
-            <div className="mainKeys">
+            <motion.div className="mainKeys" animate={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -400}} transition={{duration: 0.4}}>
                 <svg width="998" height="316" viewBox="0 0 998 316" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill={this.isNoteInScale("C")} d="M2 308V8C2 4.68629 4.68629 2 8 2H67C70.3137 2 73 4.6863 73 8V308C73 311.314 70.3137 314 67 314H8C4.68629 314 2 311.314 2 308Z" stroke="#EEEEEE" strokeWidth="4"/>
                     <path fill={this.isNoteInScale("D")} d="M73 308V8C73 4.68629 75.6863 2 79 2H138C141.314 2 144 4.6863 144 8V308C144 311.314 141.314 314 138 314H79C75.6863 314 73 311.314 73 308Z" stroke="#EEEEEE" strokeWidth="4"/>
@@ -49,7 +50,7 @@ class Keys extends React.Component{
                     <path fill={this.isNoteInScale("F#", true)} d="M264 179V0H307V179H264Z" stroke="#EEEEEE" strokeWidth="2"/>
                     <path fill={this.isNoteInScale("D#", true)} d="M122 179V0H165V179H122Z" stroke="#EEEEEE" strokeWidth="2"/>
                 </svg>
-            </div>
+            </motion.div>
         )
     }
 }

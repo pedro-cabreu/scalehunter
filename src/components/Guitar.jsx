@@ -1,6 +1,7 @@
 import React from 'react';
 import '../global.css';
 import Data from '../assets/data.json';
+import { motion } from 'framer-motion';
 import Fingerboard from '../assets/instruments/GuitarFingerboard.svg';
 
 export default class Guitar extends React.Component{
@@ -29,7 +30,7 @@ export default class Guitar extends React.Component{
     render(){
 
         return(
-            <div className="guitarWrapper">
+            <motion.div className="guitarWrapper" animate={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -400}} transition={{duration: 0.4}}>
                 <div className="tuningLabel">
                     {
                         this.props.tuning.slice(0).reverse().map((element) => this.isLabelInScale(element) ? (<h1 className="inScale">{element}</h1>) : (<h1>{element}</h1>))
@@ -118,7 +119,7 @@ export default class Guitar extends React.Component{
                         <rect fill={this.isNoteInScale(Data.roots[this.assertArrayIndex(Data.roots.findIndex(element => element.value === this.props.tuning[5]) + 13)].value)} width="25" height="25" rx="7" transform="matrix(1 0 0 -1 785.996 25.7417)"/>
                     </svg>
                 </div>
-            </div>
+            </motion.div>
         )
     }
 }

@@ -17,7 +17,8 @@
         { "value": "Guitar", "label": "Guitar"},
         { "value": "Keys", "label": "Keys"},
         { "value": "Bass", "label": "Bass"},
-        { "value": "Ukulele", "label": "Ukulele"}
+        { "value": "Ukulele", "label": "Ukulele"},
+        { "value": "Text", "label": "Text (only the notes)"}
     ],
     "tunings": [
         { "value": [
