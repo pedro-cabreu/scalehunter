@@ -54,6 +54,36 @@ header{
     -moz-box-shadow: 10px 10px 25px -6px rgba(0,0,0,0.55);
 }
 
+.downloadWrapper{
+
+    display: flex;
+    width: 700px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}
+
+.downloadText{
+
+    margin-top: 10vh;
+    color: #EEEEEE;
+    font-size: 24px;
+}
+
+.downloadWrapper button{
+
+    font-size: 24px;
+    border: 1px solid #FD7014;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #393E46;
+    border-radius: 6px;
+    height: 100px;
+    color: #EEEEEE;
+    width: 190px;
+}
+
 .textScale{
 
     display: flex;

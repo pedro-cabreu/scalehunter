@@ -3,7 +3,7 @@ import { slide as Menu } from 'react-burger-menu';
 import { Link } from 'react-router-dom';
 import { CgPiano } from 'react-icons/cg';
 import { GiArchiveResearch } from 'react-icons/gi';
-import { IoMdSettings } from 'react-icons/io';
+import { IoMdSettings, IoMdDownload, IoMdInformationCircle } from 'react-icons/io';
 import { IoMusicalNote } from 'react-icons/io5';
 import '../global.css';
 
@@ -37,7 +37,7 @@ var styles = {
       width: '228px'
     },
     bmMenu: {
-      background: '#393E46',
+      background: '#222831',
       padding: '2.5em 1.5em 0',
       fontSize: '1.15em',
       overflow: 'hidden'
@@ -54,7 +54,7 @@ var styles = {
       alignItems: "center",
       color: "#EEEEEE",
       textDecoration: "none",
-      fontWeight: "bold",
+      fontWeight: "600",
       marginTop: '7px',
       borderRadius: '6px',
       padding: '10px'
@@ -75,7 +75,8 @@ export default class SideMenu extends React.Component {
         <Link className="menu-item" to="/"><IoMusicalNote className="menu-icon"/> Scales</Link>
         <Link className="menu-item" to="/chords"><CgPiano className="menu-icon"/> Chords</Link>
         <Link className="menu-item" to="/chordfinder"><GiArchiveResearch className="menu-icon"/> Chord Finder</Link>
-        <Link className="menu-item" to="/chords"><IoMdSettings className="menu-icon"/> Settings</Link>
+        <Link className="menu-item" to="/download"><IoMdDownload className="menu-icon"/> Download</Link>
+        <Link className="menu-item" to="/about"><IoMdInformationCircle className="menu-icon"/> About</Link>
       </Menu>
     );
   }

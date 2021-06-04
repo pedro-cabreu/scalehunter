@@ -31,7 +31,7 @@ export default class MetronomeModal extends React.Component{
                 {
                 this.state.toggleModal ? 
                     <motion.div initial={{ x: 200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.3 }} className="metronomeModal">
-                        <Metronome bpmStyle={{ color: '#EEEEEE' }} railStyle={{  }} playPauseStyle={{ backgroundColor: '#FD7014' }} plusStyle={{ color: '#EEEEEE', backgroundColor: '#222831' }} minusStyle={{ color: '#EEEEEE', backgroundColor: '#222831' }} />
+                        <Metronome frequency={ 432 } bpmStyle={{ color: '#EEEEEE' }} volume={ 0.6 } startBpm={ 140 } maxBpm={ 300 } railStyle={{  }} playPauseStyle={{ backgroundColor: '#FD7014' }} plusStyle={{ color: '#EEEEEE', backgroundColor: '#222831' }} minusStyle={{ color: '#EEEEEE', backgroundColor: '#222831' }} />
                     </motion.div> 
                     : null
                 }
