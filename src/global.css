@@ -36,6 +36,11 @@ header{
     border-radius: 6px;
 }
 
+svg > rect{
+
+    cursor: pointer;
+}
+
 .metronomeButton > button{
 
     position: absolute;
@@ -172,7 +177,13 @@ header{
     margin-top: 14vh;
 }
 
-.mainGuitar{
+.mainGuitarChordFinder{
+
+    margin-top: 7vh;
+}
+
+.mainGuitar,
+.mainGuitarChordFinder{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,6 +192,11 @@ header{
 .mainGuitar img{
 
     z-index: 0;
+}
+
+.fingerboardNotes > rect{
+
+    fill: #393E46;
 }
 
 #fingerboardScale{
@@ -216,12 +232,35 @@ footer > label{
     align-items: center;
 }
 
+.guitarWrapperChordFinder{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fretboardWrapper{
+
+    display: flex;
+    align-items: center;
+}
+
+.chordName{
+
+    color: #EEEEEE;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 2vh;
+}
+
 .tuningLabel{
 
     margin-top: 14vh;
     margin-right: 30px;
     color: #EEEEEE;
     font-size: 10px;
+    user-select: none;
+    cursor: pointer !important;
 }
 
 .inScale{

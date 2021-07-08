@@ -3,7 +3,7 @@ import { slide as Menu } from 'react-burger-menu';
 import { Link } from 'react-router-dom';
 import { CgPiano } from 'react-icons/cg';
 import { GiArchiveResearch } from 'react-icons/gi';
-import { IoMdSettings, IoMdDownload, IoMdInformationCircle } from 'react-icons/io';
+import { IoMdDownload, IoMdInformationCircle } from 'react-icons/io';
 import { IoMusicalNote } from 'react-icons/io5';
 import '../global.css';
 
@@ -63,7 +63,7 @@ var styles = {
         top: 0,
         left: 0
     }
-  }
+}
   
 
 export default class SideMenu extends React.Component {
@@ -71,7 +71,7 @@ export default class SideMenu extends React.Component {
   render () {
 
     return (
-      <Menu styles={styles}>
+      <Menu styles={ styles }>
         <Link className="menu-item" to="/"><IoMusicalNote className="menu-icon"/> Scales</Link>
         <Link className="menu-item" to="/chords"><CgPiano className="menu-icon"/> Chords</Link>
         <Link className="menu-item" to="/chordfinder"><GiArchiveResearch className="menu-icon"/> Chord Finder</Link>

@@ -5,6 +5,7 @@ import SideMenu from '../../components/SideMenu';
 import Data from '../../assets/data.json';
 import '../../global.css';
 import Footer from '../../components/Footer';
+import GuitarChordFinder from '../../components/GuitarChordFinder';
 
 const customStyles = {
     option: (provided, state) => ({
@@ -50,7 +51,8 @@ export default class ChordFinder extends React.Component{
 
         this.state = {
 
-            instrument: "Guitar"
+            instrument: "Guitar",
+            tuning: ["E", "A", "D", "G", "B", "E"]
         }
 
         this.setInstrument = (e) => { this.setState({ instrument: e.value })};
@@ -73,7 +75,7 @@ export default class ChordFinder extends React.Component{
                         </div>
                     </div>
                 </header>
-                <h1 id="WIP">Work in progress.</h1>
+                <GuitarChordFinder tuning={this.state.tuning} />
                 <Footer />
             </main>
         )
